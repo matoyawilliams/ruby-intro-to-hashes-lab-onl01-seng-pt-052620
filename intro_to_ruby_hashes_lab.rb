@@ -1,40 +1,31 @@
-def new_hash	def new_hash
-
+def new_hash
   hash = Hash.new
   hash
-end	end
+end
 
-
-def actor	def actor
-
+def actor
   hash = {:name => "Dwayne The Rock Johnson"}
   hash
-end	end
+end
 
-
-def monopoly	def monopoly
-	monopoly = {}		monopoly = {
+def monopoly
+	monopoly = {
     :railroads => {}
   }
 
+end
 
-end	end
-
-
-def monopoly_with_second_tier	def monopoly_with_second_tier
-	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!		#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
-
+def monopoly_with_second_tier
+	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 	monopoly = {
     :railroads => {:pieces => 4, :names =>{}, :rent_in_dollars => {}
   }
-
+    
   }
-end	end
+end
 
-
-def monopoly_with_third_tier	def monopoly_with_third_tier
-	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!		#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
-
+def monopoly_with_third_tier
+	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 		monopoly = {
     :railroads => {
       :pieces => 4, 
@@ -51,14 +42,12 @@ def monopoly_with_third_tier	def monopoly_with_third_tier
       four_pieces_owned: 200
     }
   }
-
+    
   }
-end	end
+end
 
-
-def monopoly_with_fourth_tier	def monopoly_with_fourth_tier
-	#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!		#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
-
+def monopoly_with_fourth_tier
+	#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
 	monopoly = {
     :railroads => {
       :pieces => 4, 
@@ -83,9 +72,7 @@ def monopoly_with_fourth_tier	def monopoly_with_fourth_tier
       four_pieces_owned: 200
     }
   }
-
+    
   }
-end	end
-
-
+end
 
